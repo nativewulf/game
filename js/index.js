@@ -64,7 +64,7 @@ let mistake = 0;
             }
         }
         if(fullWordGuessed){
-            window.alert("You win!");
+            window.alert("Tu as gagné j'ai hâte :)!");
         }
 
 
@@ -132,7 +132,7 @@ if(mistake === 6){
     ctx.lineTo(280,340);
     ctx.stroke();
     ctx.closePath();
-    window.alert("You're dead now !");
+    window.alert("tu as perdu, dommage... TRY AGAIN CLICK ON NEW GAME");
         }
     }
 
