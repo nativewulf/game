@@ -64,7 +64,7 @@ let mistake = 0;
             }
         }
         if(fullWordGuessed){
-            window.alert("Tu as gagné j'ai hâte :)!");
+            window.alert("TU AS GAGNE ! CAN'T WAIT ");
         }
 
 
@@ -132,9 +132,9 @@ if(mistake === 6){
     ctx.lineTo(280,340);
     ctx.stroke();
     ctx.closePath();
-    window.alert("tu as perdu, dommage... TRY AGAIN CLICK ON NEW GAME");
+    window.alert("TU AS PERDU, DOMMAGE... TRY AGAIN CLICK ON NEW GAME");
         }
-    }
+    }  
 
 function init(){
     printTableWord();
