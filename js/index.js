@@ -4,11 +4,9 @@ ctx.strokeStyle = '#9d0007';
 
 
 let wordtoguess= [
-      ["L","O","V","E"],
-      ["J","A","V","A","S","C","R","I","P","T"],
-      ["F","O","R","E","V","E","R"],
-      ["H","E","L","L","O","W","O","R","L","D"],
-      ["C","O","D","I","N","G"]
+      ["D","I","N","E","R"],
+      ["F","E","L","L","A","T","I","O","N"],
+      ["M","A","S","S","A","G","E"],
 ]
 let random = Math.floor((Math.random()*(wordtoguess.length-1))); 
 // Les mots a deviner seront dans ce tableau  

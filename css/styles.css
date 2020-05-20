@@ -43,6 +43,14 @@ h1{
   color:#f82104;
 }
 
+h5{
+  margin-left:26%;
+  padding:10px;
+  font-family: 'darksoul';
+  font-size:25px;
+  color:#faf7f6;
+}
+
 .NewGame__btn{
   font-family: 'darksoul';
   font-size:25px;
@@ -116,21 +124,25 @@ canvas {
 @media (min-width:900px) {
 
    h1{
-    margin-left:40%;
+    margin-left:20%;
     padding:25px;
-
+  }
+  h5{
+    margin-left:30%;
+    padding:25px;
   }
 
 .card{
   flex:0 40%;
+  
 }
 
 .card-body .NewGame__btn{
-  margin-left:20px;
+  margin-left:250px;
 }
   .card img{
-    width:420px;
-    height:350px;
+    width:500px;
+    height:400px;
   }
 .background{
   display:flex;
